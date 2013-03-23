@@ -14,9 +14,6 @@ import os
 from setuptools import find_packages
 from distutils.core import setup
 
-here = os.path.abspath(os.path.dirname(__file__))
-README = open(os.path.join(here, 'README.rst')).read()
-
 # Requirements for the package
 install_requires = [
     'SQLAlchemy==0.8.0',
